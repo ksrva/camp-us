@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <string name="app_name">Campus Buddy V3</string>
+        <string name="camp_us">camp - us</string>
+         <string-array name="schools_array">
+            <item>The University of British Columbia</item>
+            <item>Université du Québec à Montréal </item>
+            <item>University of Ottawa</item>
+            <item>University of Toronto</item>
+            <item>University of Waterloo</item>
+            <item>Western University</item>
+            <item>York University</item>
+        </string-array>
+    <string-array name="location_array">
+        <item>M3</item>
+        <item>DC</item>
+        <item>SLC</item>
+        <item>E7</item>
+        <item>PAC</item>
+        <item>V1</item>
+        <item>UWP</item>
+    </string-array>
+    <string-array name="destination_array">
+        <item>M3</item>
+        <item>DC</item>
+        <item>SLC</item>
+        <item>E7</item>
+        <item>PAC</item>
+        <item>V1</item>
+        <item>UWP</item>
+    </string-array>
+    <string-array name="notify_array">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+    </resources>
+

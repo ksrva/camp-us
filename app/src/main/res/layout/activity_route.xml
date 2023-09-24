@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteActivity">
+
+
+    <TextView
+        android:id="@+id/question4"
+        android:layout_width="265dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Where are you leaving from?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="839dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/campus_background" />
+
+    <View
+        android:id="@+id/roundedRectangle3"
+        android:layout_width="337dp"
+        android:layout_height="415dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp"
+        android:background="@drawable/rounded_rectangle"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Spinner
+        android:id="@+id/location_spinner2"
+        android:layout_width="234dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="537dp"
+        android:foregroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp" />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="265dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="493dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Where are you headed?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="265dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Where are you leaving from?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <TextView
+        android:id="@+id/question5"
+        android:layout_width="265dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="578dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="notify friends?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="167dp"
+        android:layout_height="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="336dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Select your campus"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/route_home_text"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/poppins"
+        android:text="submit"
+        app:iconTint="#000000"
+        tools:layout_editor_absoluteY="787dp" />
+
+    <Spinner
+        android:id="@+id/schools_spinner"
+        android:layout_width="234dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="363dp"
+        android:foregroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Spinner
+        android:id="@+id/destination_spinner"
+        android:layout_width="234dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="441dp"
+        android:foregroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp" />
+
+    <Spinner
+        android:id="@+id/notify_spinner"
+        android:layout_width="234dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="625dp"
+        android:foregroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="72dp" />
+
+
+</RelativeLayout>

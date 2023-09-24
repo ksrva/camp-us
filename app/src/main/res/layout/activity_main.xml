@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="548dp"
+        android:backgroundTint="#D5D5D5"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="login"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#B2D5AE"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#646C83"
+        app:iconTint="#000000" />
+
+    <Button
+        android:id="@+id/supabutton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:layout_marginBottom="216dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Create an Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#3F51B5" />
+
+
+    <TextView
+        android:id="@+id/camp_us"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="169dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:gravity="center_horizontal|top"
+        android:text="@string/camp_us"
+        android:textAppearance="@style/camp_us" />
+
+    <View
+        android:id="@+id/roundedRectangle2"
+        android:layout_width="334dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/rounded_rectangle" />
+
+    <View
+        android:id="@+id/roundedRectangle1"
+        android:layout_width="334dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/rounded_rectangle" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF" />
+
+</RelativeLayout>
